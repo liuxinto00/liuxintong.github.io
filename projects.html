@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="styles/my-first-style.css" />
+        <title>Projects Detail</title>
+    </head>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img
+                        src="./images/mochi.jpg"
+                        width="30"
+                        height="30"
+                        class="d-inline-block align-top"
+                        alt=""
+                    />
+                    <strong>Xintong Liu</strong>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html"
+                                >Home <span class="sr-only">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html"
+                                >Projects</a
+                            >
+                        </li>
+                    </ul>
+                    <span class="navbar-nav right">
+                        <span class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="lindaliu2018.05@gmail.com"
+                                >Contact me!</a
+                            >
+                        </span>
+                    </span>
+                    <span class="navbar-nav right">
+                        <span class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="./images/Xintong(Linda)_Liu_Resume.pdf"
+                                download="CV_resume_AntoineNoreau"
+                                >Download CV</a
+                            >
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+        <h3>Projects</h3>
+
+        <div id="accordion1">
+            <div class="card">
+                <div class="card-header" id="heading1">
+                    <h5 class="mb-0">
+                        <button
+                            class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseOne"
+                            aria-expanded="true"
+                            aria-controls="collapseOne"
+                        >
+                            Restaurant Discovering Service and App
+                        </button>
+                    </h5>
+                </div>
+                <div
+                    id="collapseOne"
+                    class="collapse"
+                    aria-labelledby="heading1"
+                    data-parent="#accordion1"
+                >
+                    <div class="card-body">
+                        <div>
+                            <p>
+                                ● Developed a full-stack web service to let
+                                users search for nearby restaurants, and
+                                improved personalized business recommendation
+                                based on personalized information, e.g. search
+                                history and favorite records.
+                            </p>
+                            <p>
+                                ● Built Java servlets to handle HTTP requests
+                                and response (using ​RESTful APIs​) and designed
+                                an interactive web page using AJAX technology
+                                (​HTML, CSS, JavaScript​).
+                            </p>
+                            <p>
+                                ● Built relational (​MySQL​) and NoSQL
+                                (​MongoDB)​ database to store restaurant data
+                                retrieved from Yelp API, and designed
+                                content-based recommendation algorithm for
+                                restaurant recommendation.
+                            </p>
+                            <p>
+                                ● Deployed server to AWS EC2 to handle 150
+                                queries per second and used ​Apache JMeter​ to
+                                test.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="heading2">
+                    <h5 class="mb-0">
+                        <button
+                            class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="collapseTwo"
+                        >
+                            NBA Player Analysis
+                        </button>
+                    </h5>
+                </div>
+                <div
+                    id="collapseTwo"
+                    class="collapse"
+                    aria-labelledby="heading2"
+                    data-parent="#accordion1"
+                >
+                    <div class="card-body">
+                        <div>
+                            <p>
+                                ● Built a dashboard (using ​​React​, ​Ant
+                                Design​ and ​D3 Shot Chart​​) to visualize
+                                individual player’s shot’s data.
+                            </p>
+                            <p>
+                                ● Implemented linked highlighting among all
+                                charts using common raised React state.
+                            </p>
+                            <p>
+                                ● Built a field goal percentage filter to
+                                provide more detailed visualization areas with
+                                made shots.
+                            </p>
+                            <p>
+                                ● Designed a match filter to display more
+                                specifically stats for home, away, won and lost
+                                games.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="heading3">
+                    <h5 class="mb-0">
+                        <button
+                            class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseThree"
+                            aria-expanded="false"
+                            aria-controls="collapseThree"
+                        >
+                            Online User Analytics Tool
+                        </button>
+                    </h5>
+                </div>
+                <div
+                    id="collapseThree"
+                    class="collapse"
+                    aria-labelledby="heading3"
+                    data-parent="#accordion1"
+                >
+                    <div class="card-body">
+                        <div>
+                            <p>
+                                ● Used ​ElasticSearch​ to store user data and
+                                procedure information for future analysis.
+                            </p>
+                            <p>
+                                ● Analyzed user geographic distribution using
+                                ​GeoIP ​in Kibana.
+                            </p>
+                            <p>
+                                ● Used ​MapReduce​ in MongoDB to process logs
+                                extracted from web services to find peak periods
+                                of resource usage.
+                            </p>
+                            <p>
+                                ● Used ​JMeter​ to test geolocations of 10K fake
+                                users and delivered to 70 alpha test users to
+                                improve the quality and be ready for beta test.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3>Internship</h3>
+
+        <div id="accordion2">
+            <div class="card">
+                <div class="card-header" id="heading4">
+                    <h5 class="mb-0">
+                        <button
+                            class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseFour"
+                            aria-expanded="true"
+                            aria-controls="collapseFour"
+                        >
+                            Summer 2020 - Software Engineer Intern on the search
+                            and pricing team​ at DoorDash (San Francisco, CA)
+                        </button>
+                    </h5>
+                </div>
+                <div
+                    id="collapseFour"
+                    class="collapse"
+                    aria-labelledby="heading4"
+                    data-parent="#accordion2"
+                >
+                    <div class="card-body">
+                        <div class="image-text-container">
+                            <img
+                                class="Project_page_images"
+                                src="./images/doordash.jpg"
+                                alt="Internship with doordash"
+                            />
+                            <div>
+                                <p>
+                                    ● Designed and led the project of making Dbp
+                                    (Distance Based Pricing) filter offline,
+                                    successfully ​eliminated all(1000+) rpc
+                                    calls per user search request​, ​massively
+                                    reducing the overall need for calling
+                                    delivery fee servic​e, thus ​improving the
+                                    efficiency of the current search server​
+                                    (latency for search request reduced by 16%).
+                                </p>
+                                <p>
+                                    ● Created a new ​ElasticSearch​ ​index​ with
+                                    the new field along with all fields from
+                                    other current in-use indices, largely saving
+                                    disk space (saved 35%) by successfully
+                                    retiring current in-use indices.
+                                </p>
+                                <p>
+                                    ● Other tech stack used: ​gRPC​ used to
+                                    build microservices and to communicate
+                                    between them with encrypted keys (used tools
+                                    such as ​Ninox​), ​Cassandra​ for A/B test
+                                    config setting and ​Kinesis​ for bulk
+                                    indexing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
